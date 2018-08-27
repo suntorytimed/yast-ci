@@ -1,6 +1,6 @@
 FROM yastdevel/ruby:sle12-sp2
 
-zypper --non-interactive in --no-recommends --force-resolution -fy \
+RUN zypper --non-interactive in --no-recommends --force-resolution -fy \
   kmod \
   xdg-utils \
   yast2-ntp-client \
