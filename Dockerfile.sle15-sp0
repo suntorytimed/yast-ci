@@ -5,6 +5,7 @@ RUN zypper --non-interactive in --no-recommends --force-resolution -fy \
   xdg-utils \
   yast2-ntp-client \
   yast2-cluster \
+  ShellCheck \
   && zypper clean -a \
   && rm -rf /usr/share/doc/
 
