@@ -6,6 +6,7 @@ RUN zypper --non-interactive in --no-recommends --force-resolution -fy \
   yast2-ntp-client \
   yast2-cluster \
   ShellCheck \
+  perl-XML-XPath \
   && zypper clean -a \
   && rm -rf /usr/share/doc/
 
